@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+#nav {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: sticky;
+  gap: 2.3rem;
+}
+.nav-el {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 0.78rem;
+}
+.nav-el img {
+  height: 80%;
+  padding-left: 1.5rem;
+}
+.nav-2 {
+  display: flex;
+  justify-content: center;
+  gap: 2.3rem;
+}
+.nav-3 {
+  gap: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0rem 5rem;
+  height: 100%;
+}
+.nav-3 button {
+  background-color: white;
+  color: black;
+  height: 75%;
+  /* width: 60%; */
+  padding: 0rem 1.4rem;
+  border: none;
+  font-weight: 700;
+}
+.nav-el h3,
+button:hover {
+  cursor: pointer;
+}
+#main h1,
+span {
+  color: white;
+  text-transform: uppercase;
+  font-size: 7rem;
+  text-align: center;
+}
+.p1 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin: 4rem 2rem; */
+}
+.p1 span {
+  font-size: 2rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: rgb(126 56 54);
+  padding: 2rem 3rem;
+}
+.p1c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+#left-img {
+  height: 15rem;
+  width: 10rem;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  border-radius: 2rem;
+}
+#right-img {
+  height: 15rem;
+  width: 10rem;
+  position: absolute;
+  bottom: 20%;
+  right: 5%;
+  border-radius: 2rem;
+}
+#scroll-down {
+  color: white;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 4%;
+  font-size: 2rem;
+}
